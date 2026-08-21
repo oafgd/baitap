@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tra cứu điểm cuối kỳ</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .thongtin {
+            width: 70%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            color: rgb(18, 18, 193);
+            background-color: rgb(224, 206, 206);
+            font-weight: bold;
+        }
+
+        .hoten {
+            background-color: red;
+            color: white;
+        }
+
+        .dat {
+            background-color: lightgreen;
+            color: black;
+            font-weight: bold;
+        }
+
+        .khong-dat {
+            background-color: #ffcccc;
+            color: red;
+            font-weight: bold;
+        }
+
+        tr:hover td {
+            background-color: #f5f5f5;
+        }
+
+        tr:hover .dat {
+            background-color: lightgreen;
+        }
+
+        tr:hover .khong-dat {
+            background-color: #ffcccc;
+        }
+
+        .lienket {
+            width: 70%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .lienket a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .lienket a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .cuoi-trang {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Tiêu đề -->
+    <h1>TRƯỜNG ĐẠI HỌC </h1>
+
+    <hr>
+
+    <h2>Tra cứu điểm cuối kỳ</h2>
+
+    <!-- Một vài dòng thông tin -->
+    <div class="thongtin">
+
+        <p>
+            <b>Họ và tên:</b> Nguyễn Văn A
+        </p>
+
+        <p>
+            <b>Mã sinh viên:</b> SV001
+        </p>
+
+        <p>
+            <b>Lớp:</b> Công nghệ thông tin K18
+        </p>
+
+        <p>
+            <b>Học kỳ:</b> Học kỳ 2 - Năm học 2025-2026
+        </p>
+
+        <p>
+            <i>Thông tin điểm được cập nhật sau khi kết thúc học kỳ.</i>
+        </p>
+
+    </div>
+
+
+    <!-- Bảng điểm -->
+    <table>
+
+        <tr>
+            <th rowspan="2" class="hoten">
+                Họ Tên
+            </th>
+
+            <th colspan="2">
+                Điểm
+            </th>
+
+            <th rowspan="2">
+                Ghi chú
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                Lý thuyết
+            </th>
+
+            <th>
+                Thực hành
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                Nguyễn Văn A
+            </td>
+
+            <td>
+                8.0
+            </td>
+
+            <td>
+                9.0
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Trần Thị B
+            </td>
+
+            <td>
+                7.5
+            </td>
+
+            <td>
+                8.5
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Nguyễn Văn C
+            </td>
+
+            <td>
+                6.0
+            </td>
+
+            <td>
+                7.0
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Lê Thị D
+            </td>
+
+            <td>
+                5.5
+            </td>
+
+            <td>
+                6.0
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Phạm Văn E
+            </td>
+
+            <td>
+                9.0
+            </td>
+
+            <td>
+                9.5
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Hoàng Thị F
+            </td>
+
+            <td>
+                4.5
+            </td>
+
+            <td>
+                5.0
+            </td>
+
+            <td class="khong-dat">
+                Không đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Đỗ Văn G
+            </td>
+
+            <td>
+                8.5
+            </td>
+
+            <td>
+                8.0
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Vũ Thị H
+            </td>
+
+            <td>
+                6.5
+            </td>
+
+            <td>
+                7.5
+            </td>
+
+            <td class="dat">
+                Đạt
+            </td>
+        </tr>
+
+    </table>
+
+
+    <!-- Thông tin bổ sung -->
+    <div class="lienket">
+
+        <h3>Một số thông tin</h3>
+
+        <p>
+            Sinh viên có thể xem thêm thông tin tại các liên kết bên dưới:
+        </p>
+
+        <ul>
+
+            <li>
+                <a href="https://www.google.com" target="_blank">
+                    Trang tìm kiếm Google
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.w3schools.com/html/" target="_blank">
+                    Học HTML cơ bản
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.w3schools.com/css/" target="_blank">
+                    Học CSS cơ bản
+                </a>
+            </li>
+
+        </ul>
+
+        <p>
+            Nếu có thắc mắc về điểm số, vui lòng
+            <b>liên hệ phòng đào tạo</b>.
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:daotao@example.com">
+                daotao@example.com
+            </a>
+        </p>
+
+    </div>
+
+
+    <!-- Một số thẻ cơ bản -->
+    <div class="lienket">
+
+        <h3>Các thẻ HTML cơ bản</h3>
+
+        <p>
+            Đây là đoạn văn sử dụng thẻ <b>p</b>.
+        </p>
+
+        <p>
+            Nội dung <strong>in đậm</strong>,
+            nội dung <i>in nghiêng</i>,
+            nội dung <u>gạch chân</u>.
+        </p>
+
+        <p>
+            Dòng thứ nhất.<br>
+            Dòng thứ hai sau khi sử dụng thẻ br.
+        </p>
+
+        <p>
+            Nội dung phía trên.
+        </p>
+
+        <hr>
+
+        <p>
+            Nội dung phía dưới đường kẻ.
+        </p>
+
+    </div>
+
+
+    <!-- Cuối trang -->
+    <div class="cuoi-trang">
+
+        <p>
+            <b>© 2026 - Hệ thống tra cứu điểm sinh viên</b>
+        </p>
+
+        <p>
+            Chúc các bạn học tập tốt!
+        </p>
+
+    </div>
+
+</body>
+
+</html>
